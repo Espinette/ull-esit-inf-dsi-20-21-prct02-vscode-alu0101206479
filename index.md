@@ -187,7 +187,7 @@ Ahora, abrimos el fichero index.ts con `vi index.ts` por ejemplo y añadimos las
   console.log(myString);
 ```
 
-##### 7. Compilar el código
+##### 8. Compilar el código
 
 Ya tenemos el fichero con el código de TypeScript, ahora lo ejecutamos con el siguiente comando:
 
@@ -197,7 +197,7 @@ Ya tenemos el fichero con el código de TypeScript, ahora lo ejecutamos con el s
 
 Hacer esto nos crea el directorio `dist` con el fichero `index.js` en su interior.
 
-##### 8. Comprobar diferencias entre `./src/index.ts` y `./dist/index.js`
+##### 9. Comprobar diferencias entre `./src/index.ts` y `./dist/index.js`
 
 Para comprobar las diferencias entre los dos ficheros podemos usar el siguiente comando:
 
@@ -214,7 +214,7 @@ Para comprobar las diferencias entre los dos ficheros podemos usar el siguiente 
 
 Si observamos la salida podemos ver que se diferencian en la declaración de la variable `myString` y en los `;`.
 
-##### 8. Ejecutar el código de JavaScript generado a partir del código de TypeScript
+##### 10. Ejecutar el código de JavaScript generado a partir del código de TypeScript
 
 Para finalizar vamos a ejecutar el archivo generado después de la compilación, el archivo `dist/index.js`:
 
